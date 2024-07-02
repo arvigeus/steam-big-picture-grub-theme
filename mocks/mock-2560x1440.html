@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam Big Picture Grub Theme</title>
+    <style>
+        @font-face {
+            font-family: 'Motiva Sans Bold';
+            src: url('../src/fonts/MotivaSansExtraBold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #background {
+            width: 2560px;
+            height: 1440px;
+            background-size: cover;
+            position: relative;
+        }
+        .boot-menu {
+            width: 1024px; /* 40% */
+            height: 1276px;
+            position: absolute;
+            left: 0;
+            top: 80px;
+            margin: 0 auto;
+        }
+        .boot-item {
+            font-family: 'Motiva Sans Bold', sans-serif;
+            font-size: 24px;
+            color: #b7bac3;
+            height: 90px;
+            /* Icon and Label styling for HTML only */
+            display: flex;
+            align-items: center;
+            padding-left: 48px;
+            background-repeat: no-repeat;
+            background-position: 20px center;
+            background-size: 48px 48px;
+            padding-left: 88px;
+            overflow: hidden;
+            text-wrap: nowrap;
+        }
+        .selected {
+            background: url('../dist/steam-big-picture-2560x1440/select_c.png') repeat;
+        }
+    </style>
+</head>
+<body>
+    <img src="../dist/steam-big-picture-2560x1440/background.png" id="background">
+        <div class="boot-menu">
+            <div class="selected">
+                <div class="boot-item" style="background-image: url('../dist/steam-big-picture-2560x1440/icons/nobara.png');">Nobara Linux (6.8.12-200.fsync.fc39.x86_64) 39 (KDE Plasma)</div>
+            </div>
+            <div class="boot-item" style="background-image: url('../dist/steam-big-picture-2560x1440/icons/linux.png');">Generic Linux</div>
+            <div class="boot-item" style="background-image: url('../dist/steam-big-picture-2560x1440/icons/windows.png');">Microsoft Windows</div>
+        </div>
+    </img>
+</body>
+</html>

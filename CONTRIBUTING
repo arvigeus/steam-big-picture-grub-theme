@@ -1,0 +1,7 @@
+# Contributing
+
+The theme consists of a static image with the boot menu being displayed in the left middle part of the screen.
+
+Grub menu width should be 40% of image's width. Avoid using percentages.
+
+Grub menu height is tricky. I tried recreating the theme in CSS and I use values from there. It Works On My Machine™!

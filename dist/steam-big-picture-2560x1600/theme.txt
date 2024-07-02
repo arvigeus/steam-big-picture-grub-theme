@@ -1,0 +1,40 @@
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-font: "Terminus Regular 18"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
++ boot_menu {
+    width = 1024
+    left = 0
+    top = 160
+    height = 1276
+    icon_width = 48
+    icon_height = 48
+    item_font = "Motiva Sans Bold 24"
+    item_color = "#b7bac3"
+    item_padding = 0
+    selected_item_font = "Motiva Sans Bold 24"
+    selected_item_color = "#b7bac3"
+    selected_item_pixmap_style = "select_*.png"
+    item_height = 90
+    item_spacing = 0
+    scrollbar = 0
+}
+
++ label {
+    top = 100%
+    left = 32
+    width = 36%
+    height = 20
+    align = "left"
+    id = "__timeout__"
+    text = "Booting in %d seconds"
+    color = "#b9b9b9"
+    font = "Motiva Sans Bold 16"
+}
