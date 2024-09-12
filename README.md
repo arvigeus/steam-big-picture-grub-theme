@@ -31,6 +31,14 @@ A theme inspired by [Steam Big Picture Mode](https://static1.makeuseofimages.com
 
 - Update grub
 
+  Most distributions:
+
+  ```sh
+  grub-mkconfig -o /boot/grub/grub.cfg
+  ```
+
+  Ubuntu:
+
   ```sh
   sudo update-grub
   ```
@@ -47,7 +55,7 @@ A theme inspired by [Steam Big Picture Mode](https://static1.makeuseofimages.com
 
 - **Will it work on Steam Deck?**
 
-  No, stock SteamOS doesn't display a grub menu.
+  No, stock SteamOS doesn't display a GRUB menu.
 
 - **What about Bazzite, ChimeraOS, HoloISO?**
 
